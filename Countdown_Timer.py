@@ -10,8 +10,8 @@ def countdown(t):
         time.sleep(1)
         
         t -= 1
-    print("Time's up!")
+    print("Time's upp!")
     if t == 0:
-       winsound.Beep(2500,800)
+       winsound.Beep(2500,700)
        
 countdown(t)
